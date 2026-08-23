@@ -36,16 +36,16 @@ My core expertise is **shipping code that works**. I architect large-scale recom
 
 ### Engineering Highlights
 
-#### 🔌 [MicroPython Core Contribution (C & Embedded)](https://github.com/micropython/micropython/pull/17789)
+####  [MicroPython Core Contribution (C & Embedded)](https://github.com/micropython/micropython/pull/17789)
 **My Contribution:**
 * Implemented **WPA2 Enterprise Authentication** support directly into the MicroPython source code using **C**.
 * Solved a critical connectivity issue for ESP32 devices in institutional networks.
 
-#### 👁️ [Vision-Eye Project (Award-Winning Concept)](https://github.com/UniverCom/Vision-Eye)
+####  [Vision-Eye Project (Award-Winning Concept)](https://github.com/UniverCom/Vision-Eye)
 * Designed an AI-driven eye-tracking system architecture for assistive technology.
 * **1st Place** at Başkent Univ. AI Competition and **2nd Place** at FonPrime | Orscelik Balkan AI competition.
 
-#### ⚡ Scalable AI Architecture (Production Work)
+####  Scalable AI Architecture (Production Work)
 **What I Build:**
 * **Recommendation Engines:** Designed pipelines processing high-volume log data to serve personalized content.
 * **Optimization:** Reduced query latency by **94%** through advanced indexing and database tuning.
