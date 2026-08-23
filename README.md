@@ -1,6 +1,6 @@
-# Hi there, I'm Erdeniz! 👋
+# Hi there, I'm Erdeniz! 
 
-### 🚀 AI Engineer | Production Systems & Open Source Contributor
+###  AI Engineer | Production Systems & Open Source Contributor
 
 I am a performance-driven **AI Engineer** focused on building scalable machine learning infrastructure and production-grade applications. 
 
@@ -8,7 +8,7 @@ My core expertise is **shipping code that works**. I architect large-scale recom
 
 ---
 
-### 🛠️ Tech Stack
+### Tech Stack
 
 **Languages & Embedded**
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -34,7 +34,7 @@ My core expertise is **shipping code that works**. I architect large-scale recom
 
 ---
 
-### 🔭 Engineering Highlights
+### Engineering Highlights
 
 #### 🔌 [MicroPython Core Contribution (C & Embedded)](https://github.com/micropython/micropython/pull/17789)
 **My Contribution:**
@@ -53,13 +53,13 @@ My core expertise is **shipping code that works**. I architect large-scale recom
 
 ---
 
-### 🎓 Background
+###  Education
 
 * **B.A. in Linguistics** (Ankara University)
 
 ---
 
-### 📫 Connect with Me
+###  Connect with Me
 
 <div align="left">
   <a href="https://www.linkedin.com/in/erdeniz-çökren/" target="_blank">
