@@ -1,34 +1,36 @@
-# Hi there, I'm Erdeniz! 
+# Hi there, I'm Erdeniz!
+### AI Engineer
 
-###  AI Engineer | Production Systems & Open Source Contributor
-
-I am a performance-driven **AI Engineer** focused on building scalable machine learning infrastructure and production-grade applications. 
-
-My core expertise is **shipping code that works**. I architect large-scale recommendation engines, optimize high-volume data pipelines, and contribute to low-level open-source firmware.
+I work across the inference stack: LLM serving on bare-metal A100s, retrieval and entity-matching systems at multi-million-record scale, agentic tool-calling layers, and the FastAPI microservices that expose them. Background in computational linguistics.
 
 ---
 
 ### Tech Stack
 
-**Languages & Embedded**
+**Languages & Embedded**  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![MicroPython](https://img.shields.io/badge/MicroPython-2B3A42?style=for-the-badge&logo=python&logoColor=white)
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
 
-**AI&ML**
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+**AI, LLM & Agentic**  
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![vLLM](https://img.shields.io/badge/vLLM-4B0082?style=for-the-badge&logo=lightning&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=anthropic&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-**Data, RAG & Backend**
+**Data, RAG & Backend**  
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![FAISS](https://img.shields.io/badge/FAISS-00599C?style=for-the-badge&logo=meta&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
-**Tools & DevOps**
+**Tools & DevOps**  
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
@@ -36,36 +38,32 @@ My core expertise is **shipping code that works**. I architect large-scale recom
 
 ### Engineering Highlights
 
-####  [MicroPython Core Contribution (C & Embedded)](https://github.com/micropython/micropython/pull/17789)
-**My Contribution:**
-* Implemented **WPA2 Enterprise Authentication** support directly into the MicroPython source code using **C**.
-* Solved a critical connectivity issue for ESP32 devices in institutional networks.
+#### [MicroPython — WPA2 Enterprise for ESP32 (C)](https://github.com/micropython/micropython/pull/17789)
+* Implemented **WPA2 Enterprise authentication** in MicroPython's C source layer, enabling ESP32 devices to join institutional and corporate networks — a capability previously absent from the ecosystem.
+* Submitted upstream as PR #17789; maintainers requested changes for merge.
 
-####  [Vision-Eye Project (Award-Winning Concept)](https://github.com/UniverCom/Vision-Eye)
-* Designed an AI-driven eye-tracking system architecture for assistive technology.
-* **1st Place** at Başkent Univ. AI Competition and **2nd Place** at FonPrime | Orscelik Balkan AI competition.
+#### [Vision-Eye — assistive communication (award-winning concept)](https://github.com/UniverCom/Vision-Eye)
+* Architected an eye-tracking system for people with severe motor and speech impairments (ALS/CP), pairing gaze selection with a passive context-aware model that surfaces candidate phrases.
+* **1st Place** at Başkent Univ. AI Competition and **2nd Place** at FonPrime | Örsçelik Balkan AI Competition.
 
-####  Scalable AI Architecture (Production Work)
-**What I Build:**
-* **Recommendation Engines:** Designed pipelines processing high-volume log data to serve personalized content.
-* **Optimization:** Reduced query latency by **94%** through advanced indexing and database tuning.
-* **RAG Systems:** Built Retrieval-Augmented Generation flows using Vector Databases (FAISS) and fine-tuned LLMs.
+#### Production work at Odeon (Coral Travel Group)
+* **Entity matching at scale:** 6M+ provider hotel records resolved against a 505K-record master, ~90.5% precision / ~96.2% recall — dual TF-IDF retrieval, fuzzy matching, coordinate filtering, and a layered scoring model, deployed as a FastAPI service on bare-metal Linux.
+* **Inference infrastructure:** 2× NVIDIA A100, Ollama tuned via custom Systemd configurations and parallelization for a **300%+ throughput increase**.
+* **RAG pipeline:** recommendation engine over 287K logs, latency cut from **~3 minutes to under 10 seconds** with FAISS vector caching and MongoDB aggregation tuning.
 
 ---
 
-###  Education
-
-* **B.A. in Linguistics** (Ankara University)
+### Education
+* **B.A. in Linguistics** — Ankara University
 
 ---
 
-###  Connect with Me
-
+### Connect with Me
 <div align="left">
-  <a href="https://www.linkedin.com/in/erdeniz-çökren/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
+  <a href="https://www.linkedin.com/in/erdeniz-cokren/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:erdeniz.cokren@outlook.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank" />
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </div>
