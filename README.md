@@ -46,11 +46,6 @@ I work across the inference stack: LLM serving on bare-metal A100s, retrieval an
 * Architected an eye-tracking system for people with severe motor and speech impairments (ALS/CP), pairing gaze selection with a passive context-aware model that surfaces candidate phrases.
 * **1st Place** at Başkent Univ. AI Competition and **2nd Place** at FonPrime | Örsçelik Balkan AI Competition.
 
-#### Production work at Odeon (Coral Travel Group)
-* **Entity matching at scale:** 6M+ provider hotel records resolved against a 505K-record master, ~90.5% precision / ~96.2% recall — dual TF-IDF retrieval, fuzzy matching, coordinate filtering, and a layered scoring model, deployed as a FastAPI service on bare-metal Linux.
-* **Inference infrastructure:** 2× NVIDIA A100, Ollama tuned via custom Systemd configurations and parallelization for a **300%+ throughput increase**.
-* **RAG pipeline:** recommendation engine over 287K logs, latency cut from **~3 minutes to under 10 seconds** with FAISS vector caching and MongoDB aggregation tuning.
-
 ---
 
 ### Education
